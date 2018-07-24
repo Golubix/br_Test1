@@ -17,9 +17,10 @@ namespace Test1.Controllers
     {
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
-
+        
         public AccountController()
         {
+            string x="";
         }
 
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
