@@ -21,6 +21,7 @@ namespace Test1.Controllers
         public AccountController()
         {
             string x="";
+            string y = "2nd commit";
         }
 
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
